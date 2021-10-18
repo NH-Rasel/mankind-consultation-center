@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { HashLink } from 'react-router-hash-link';
 import logo from '../../../images/logo.png'
 
 const Header = () => {
@@ -10,10 +11,11 @@ const Header = () => {
                     <Navbar.Brand href="#home"><img style={{ width: '200px' }} src={logo} alt="" /></Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Consultants</Nav.Link>
-                        <Nav.Link href="#pricing">Diagnosis Corner</Nav.Link>
-                        <Nav.Link href="#pricing">Pharmacy</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#consultants">Consultants</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#diagnosisCorner">Diagnosis Corner</Nav.Link>
+                        <Nav.Link href="#pharmacy">Pharmacy</Nav.Link>
+                        <Nav.Link href="#covid-19">Covid-19</Nav.Link>
                         <Navbar.Text>
 
                             Signed in as: <a href="#login">Mark Otto</a>

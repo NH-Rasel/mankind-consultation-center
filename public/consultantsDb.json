@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Dr.Leanne Graham",
+        "img": "https://i.ibb.co/9Hss897/consultant-1.png",
+        "specialist": "Allergy and immunology",
+        "designation": "Professor, Allergist",
+        "hospital": "DMC"
+    },
+    {
+        "id": 2,
+        "name": "Dr.Ervin Howell",
+        "img": "https://i.ibb.co/JppT02M/consultant-3.png",
+        "specialist": "Pathology",
+        "designation": "Assistant Professor, Pathologist",
+        "hospital": "BSMRMC"
+    },
+    {
+        "id": 3,
+        "name": "Dr.Clementine Bauch",
+        "img": "https://i.ibb.co/9wdXYWj/consultant-2.png",
+        "specialist": "Neurology",
+        "designation": "Professor, Neurologist",
+        "hospital": "SWMC"
+    },
+    {
+        "id": 4,
+        "name": "Dr.Patricia Lebsack",
+        "img": "https://i.ibb.co/2N5PZCY/consultant-5.png",
+        "specialist": "Surgery",
+        "designation": "Professor, Surgeon",
+        "hospital": "Bardem Hospital"
+    },
+    {
+        "id": 5,
+        "name": "Dr.Chelsey Dietrich",
+        "img": "https://i.ibb.co/1vG8CYV/consultant-6.png",
+        "specialist": "Internal medicine",
+        "designation": "Medicine Specialist",
+        "hospital": "PG Hospital"
+    },
+    {
+        "id": 6,
+        "name": "Dr. Dennis Schulist",
+        "img": "https://i.ibb.co/ZcpWD25/consultant-8.png",
+        "specialist": "Diagnostic radiology",
+        "designation": "Assistant professor, radiologist",
+        "hospital": "DMC"
+    },
+    {
+        "id": 7,
+        "name": "Dr.Kurtis Weissnat",
+        "img": "https://i.ibb.co/kGWwrF3/consultant-7.png",
+        "specialist": "Dermatology",
+        "designation": "Professor, Dermatologist",
+        "hospital": "Navy Hospital"
+    },
+    {
+        "id": 8,
+        "name": "Dr.Nicholas Runolf",
+        "img": "https://i.ibb.co/XSq4mSS/consultant-9.png",
+        "specialist": "Physical medicine and rehabilitation",
+        "designation": "Medicine specialist ",
+        "hospital": "PG Hospital"
+    },
+    {
+        "id": 9,
+        "name": "Dr.William Stephen",
+        "img": "https://i.ibb.co/9pjLD7J/consultant-4.png",
+        "specialist": "Family medicine",
+        "designation": "Professor, Psychiatrist",
+        "hospital": "DMC"
+    }
+]

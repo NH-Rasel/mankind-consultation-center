@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "test": "Blood Tests",
+        "img": "https://i.ibb.co/cxj14fN/diagnosis.jpg",
+        "price": 9.99
+    },
+    {
+        "id": 2,
+        "test": "Ultrasonography",
+        "img": "https://i.ibb.co/cxj14fN/diagnosis.jpg",
+        "price": 14.99
+    },
+    {
+        "id": 3,
+        "test": "Endoscopy",
+        "img": "https://i.ibb.co/cxj14fN/diagnosis.jpg",
+        "price": 11.99
+    },
+    {
+        "id": 4,
+        "test": "Kidney Function Tests",
+        "img": "https://i.ibb.co/cxj14fN/diagnosis.jpg",
+        "price": 19.99
+    },
+    {
+        "id": 5,
+        "test": "Hemoglobin A1c",
+        "img": "https://i.ibb.co/cxj14fN/diagnosis.jpg",
+        "price": 11.99
+    },
+    {
+        "id": 6,
+        "test": "MRI Scans",
+        "img": "https://i.ibb.co/cxj14fN/diagnosis.jpg",
+        "price": 15.99
+    },
+    {
+        "id": 7,
+        "test": "Thyroid Tests",
+        "img": "https://i.ibb.co/cxj14fN/diagnosis.jpg",
+        "price": 23.99
+    },
+    {
+        "id": 8,
+        "test": "X-Ray",
+        "img": "https://i.ibb.co/cxj14fN/diagnosis.jpg",
+        "price": 16.99
+    }
+]
