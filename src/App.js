@@ -6,6 +6,7 @@ import Footer from './Pages/Shared/Footer/Footer';
 import NotFound from './Pages/NotFound/NotFound';
 import Consultants from './Pages/Home/Consultants/Consultants';
 import DiagnosisCorner from './Pages/Home/DiagnosisCorner/DiagnosisCorner';
+import ConsultantDetails from './Pages/ConsultantDetails/ConsultantDetails/ConsultantDetails';
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route path="/home">
             <Home></Home>
+          </Route>
+          <Route path="/consultantDetails/:consultantsDbId">
+            <ConsultantDetails></ConsultantDetails>
           </Route>
           <Route path="/consultants">
             <Consultants></Consultants>

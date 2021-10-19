@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Aspirin EC tablet",
+        "price": 3.99,
+        "quantity": 10
+    },
+    {
+        "id": 2,
+        "name": "Benzonatate capsule",
+        "price": 4.99,
+        "quantity": 12
+    },
+    {
+        "id": 3,
+        "name": "Dexmethylphenidate HCl tablet",
+        "price": 6.99,
+        "quantity": 15
+    },
+    {
+        "id": 4,
+        "name": "Folic acid tablet",
+        "price": 5.99,
+        "quantity": 12
+    },
+    {
+        "id": 5,
+        "name": "Isosorbide mononitrate (10mg,20mg)",
+        "price": 2.99,
+        "quantity": 10
+    },
+    {
+        "id": 6,
+        "name": "Magnesium oxide tablet (OTC)",
+        "price": 8.99,
+        "quantity": 30
+    },
+    {
+        "id": 7,
+        "name": "Paroxetine HCL tablet",
+        "price": 13.99,
+        "quantity": 10
+    },
+    {
+        "id": 8,
+        "name": "Terazosin capsule",
+        "price": 15.99,
+        "quantity": 10
+    },
+    {
+        "id": 9,
+        "name": "Vitamin B Complex capsule (OTC)",
+        "price": 26.99,
+        "quantity": 20
+    }
+]

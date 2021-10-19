@@ -14,8 +14,8 @@ const Header = () => {
                         <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#consultants">Consultants</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#diagnosisCorner">Diagnosis Corner</Nav.Link>
-                        <Nav.Link href="#pharmacy">Pharmacy</Nav.Link>
-                        <Nav.Link href="#covid-19">Covid-19</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#pharmacy">Pharmacy</Nav.Link>
+                        <Nav.Link as={HashLink} to="/home#covid-19">Covid-19</Nav.Link>
                         <Navbar.Text>
 
                             Signed in as: <a href="#login">Mark Otto</a>

@@ -9,7 +9,7 @@ const DiagnosisCorner = () => {
             .then(data => setDiagnosis(data))
     }, [])
     return (
-        <div className="container">
+        <div id="diagnosisCorner" className="container">
             <h2 className="mt-5 fw-bolder text-danger">---Our Diagnosis Tests---</h2>
             <div className="row m-4">
                 {

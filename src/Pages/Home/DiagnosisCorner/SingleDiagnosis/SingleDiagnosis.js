@@ -4,7 +4,7 @@ import './SingleDiagnosis.css';
 const SingleDiagnosis = ({ singleDiagnosis }) => {
     const { test, img, price } = singleDiagnosis;
     return (
-        <div className="col-12 col-md-6 col-lg-4 diagnosis gx-3 my-3 py-3">
+        <div className="col-12 col-md-6 col-lg-4 diagnosis my-3 py-3">
             <img style={{ width: '200px', borderRadius: '5px' }} src={img} alt="" />
             <div>
                 <h3>{test}</h3>
