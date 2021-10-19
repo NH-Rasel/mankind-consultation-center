@@ -7,34 +7,42 @@ import NotFound from './Pages/NotFound/NotFound';
 import Consultants from './Pages/Home/Consultants/Consultants';
 import DiagnosisCorner from './Pages/Home/DiagnosisCorner/DiagnosisCorner';
 import ConsultantDetails from './Pages/ConsultantDetails/ConsultantDetails/ConsultantDetails';
+import Login from './Pages/Login/Login/Login';
+import AuthProvider from './Contexts/AuthProvider';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <Header></Header>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="/consultantDetails/:consultantsDbId">
-            <ConsultantDetails></ConsultantDetails>
-          </Route>
-          <Route path="/consultants">
-            <Consultants></Consultants>
-          </Route>
-          <Route path="/diagnosisCorner">
-            <DiagnosisCorner></DiagnosisCorner>
-          </Route>
-          <Route path="*">
-            <NotFound></NotFound>
-          </Route>
-          <Footer></Footer>
-        </Switch>
-      </BrowserRouter>
+      <AuthProvider>
+        <BrowserRouter>
+          <Header></Header>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route path="/home">
+              <Home></Home>
+            </Route>
+            <PrivateRoute path="/consultantDetails/:consultantsDbId">
+              <ConsultantDetails></ConsultantDetails>
+            </PrivateRoute>
+            <Route path="/consultants">
+              <Consultants></Consultants>
+            </Route>
+            <Route path="/diagnosisCorner">
+              <DiagnosisCorner></DiagnosisCorner>
+            </Route>
+            <Route path="/login">
+              <Login></Login>
+            </Route>
+            <Route path="*">
+              <NotFound></NotFound>
+            </Route>
+            <Footer></Footer>
+          </Switch>
+        </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }

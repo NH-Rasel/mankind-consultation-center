@@ -35,7 +35,7 @@ const Covid19 = () => {
             </div>
             <div>
                 <h2 className="text-success fw-bolder pt-4 my-4">"Prevention is better than cure"</h2>
-                <img className="img-fluid" src="https://i.ibb.co/F8kn9qT/covid-prevention.png" alt="" />
+                <img className="img-fluid mb-5" src="https://i.ibb.co/F8kn9qT/covid-prevention.png" alt="" />
             </div>
         </div>
     );
