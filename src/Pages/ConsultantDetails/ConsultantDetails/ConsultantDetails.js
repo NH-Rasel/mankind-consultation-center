@@ -5,7 +5,9 @@ const ConsultantDetails = () => {
     const { consultantsDbId } = useParams();
     return (
         <div>
-            <h2>this is id {consultantsDbId}</h2>
+            <div>
+                <h2>{consultantsDbId}</h2>
+            </div>
         </div>
     );
 };
