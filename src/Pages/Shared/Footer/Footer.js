@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <p style={{ backgroundColor: 'black', margin: '0px', padding: '5px', color: 'white' }}>Copyright © 2021 Mankind tech</p>
+            <p className="bg-dark" style={{ margin: '0px', padding: '8px', color: 'white' }}>Copyright © 2021 Mankind tech</p>
         </div>
     );
 };

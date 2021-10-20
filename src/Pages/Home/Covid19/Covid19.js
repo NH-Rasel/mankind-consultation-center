@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Covid19.css';
 
 const Covid19 = () => {
@@ -14,7 +15,7 @@ const Covid19 = () => {
                         <div style={{ textAlign: 'left' }} className="card-body">
                             <h3 className="card-title">Covid-19 Test</h3>
                             <p className="card-text">Having any symptoms of covid-19 or feeling something serious? Visit our diagnosis corner and test your covid-19.</p>
-                            <button className="btn btn-dark"> Test Covid-19</button>
+                            <Link to="/covid19"><button className="btn btn-dark"> Test Covid-19</button></Link>
                         </div>
                     </div>
                 </div>
@@ -25,7 +26,7 @@ const Covid19 = () => {
                         <div style={{ textAlign: 'left' }} className="card-body">
                             <h3 className="card-title">Get vaccine of Covid-19</h3>
                             <p className="card-text">If you have covid-19 positive get vaccine from our diagnosis center and fight against corona virus.</p>
-                            <button className="btn btn-dark">Register now</button>
+                            <Link to="/covid19"><button className="btn btn-dark">Register now</button></Link>
                         </div>
                     </div>
                     <div className="col-md-4">

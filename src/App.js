@@ -11,6 +11,8 @@ import Login from './Pages/Login/Login/Login';
 import AuthProvider from './Contexts/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Register from './Pages/Register/Register';
+import DiagnosisDetails from './Pages/DiagnosisDetails/DiagnosisDetails/DiagnosisDetails';
+import Covid19 from './Pages/Home/Covid19/Covid19';
 
 function App() {
   return (
@@ -27,6 +29,12 @@ function App() {
             </Route>
             <PrivateRoute path="/consultantDetails/:consultantsDbId">
               <ConsultantDetails></ConsultantDetails>
+            </PrivateRoute>
+            <PrivateRoute path="/diagnosisDetails/:diagnosisDbId">
+              <DiagnosisDetails></DiagnosisDetails>
+            </PrivateRoute>
+            <PrivateRoute path="/covid19">
+              <Covid19></Covid19>
             </PrivateRoute>
             <Route path="/consultants">
               <Consultants></Consultants>

@@ -20,12 +20,11 @@ const Header = () => {
                         <Nav.Link as={HashLink} to="/home#pharmacy" className="text-warning">Pharmacy</Nav.Link>
                         <Nav.Link as={HashLink} to="/home#covid-19" className="text-warning">Covid-19</Nav.Link>
                         <Navbar.Text>
-                            <a href="#login">{user?.displayName}<i className="far fa-user-circle text-warning ps-3"></i></a>
-
+                            <Link to="/login">{user?.displayName}</Link>
                         </Navbar.Text>
                         {
                             user?.email ?
-                                <i onClick={logOut} className="fas fa-sign-out-alt text-warning ps-3" style={{ cursor: 'pointer' }}></i> :
+                                <i className="far fa-user-circle text-warning ps-2"><i onClick={logOut} className="fas fa-sign-out-alt text-warning ps-4" style={{ cursor: 'pointer' }}></i></i> :
                                 <Nav.Link as={Link} to="/login" className="text-warning">Login</Nav.Link>
                         }
                     </Navbar.Collapse>

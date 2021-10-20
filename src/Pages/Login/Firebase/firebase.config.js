@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyB58RwLFwal0-sTlUCyCkKQ4CvhJUFMLnk",
-    authDomain: "mankind-consultation-center.firebaseapp.com",
-    projectId: "mankind-consultation-center",
-    storageBucket: "mankind-consultation-center.appspot.com",
-    messagingSenderId: "1020410560964",
-    appId: "1:1020410560964:web:7aa4d79a932028585ee491"
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+    authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
 
 export default firebaseConfig;
