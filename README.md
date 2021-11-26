@@ -4,7 +4,7 @@ Live site link: https://mankind-consultation-center.web.app/
 
 ## Project submitted in Github.com
 
-Code link: https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-NH-Rasel
+Code link: https://github.com/NH-Rasel/mankind-consultation-center
 
 ### npm react app link
 
